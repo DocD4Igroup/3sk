@@ -25,12 +25,12 @@ export default function LayoutWrapper({ children }) {
             {/* Body */}
             <div className="flex pt-16">
                 {/* Sidebar – endast för md och uppåt */}
-                <aside className="hidden md:flex fixed top-16 left-0 bottom-0 w-55 z-40 bg-gradient-to-b from-black to-gray-400 text-white overflow-y-auto">
+                <aside className="hidden md:flex fixed top-16 left-0 bottom-0 w-44 z-40 bg-gradient-to-b from-black to-gray-400 text-white overflow-y-auto">
                     <SidebarMenu />
                 </aside>
 
                 {/* Main content */}
-                <main className="flex-1 pt-4 pb-24 px-4 sm:px-6 lg:px-8 md:ml-55">
+                <main className="flex-1 pt-4 pb-24 px-4 sm:px-6 lg:px-8 md:ml-44">
                     <div className="max-w-5xl mx-auto">{children}</div>
                 </main>
             </div>

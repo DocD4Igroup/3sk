@@ -1,10 +1,10 @@
 export default function Shop() {
     return (
         <section className="max-w-4xl mx-auto px-4 py-12 text-gray-900 bg-white">
-            <h1 className="text-3xl sm:text-4xl font-bold mb-6">Butik</h1>
+            <h1 className="text-2xl sm:text-2xl font-bold text-left mt-25 sm:mt-0">Butik</h1>
 
             <p className="mb-4">
-                Välkommen till Stockholm 3SK:s butik! Här kan du köpa våra officiella klubbkläder – perfekta för både träning och tävling.
+               <br/> Välkommen till Stockholm 3SK:s butik! Här kan du köpa våra officiella klubbkläder – perfekta för både träning och tävling.
             </p>
 
             <ul className="list-disc list-inside space-y-2 mb-6">
